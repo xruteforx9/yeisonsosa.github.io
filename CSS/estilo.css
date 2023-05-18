@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Princess+Sofia&family=Sofia&family=Trocchi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'libre baskerville';
+   
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.info{
+    width: 235px;
+    background-color:black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.info-personal{
+    margin-bottom: 30px;
+
+}
+.info-personal .foto{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 35px solid #484848;
+}
+.info-personal span{
+    font-size: 20px;
+    color: rgb(15, 119, 15);
+}
+.info-personal p{
+    font-size: 16px;
+    color: rgb(5, 70, 5);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    margin: 15px 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: rgb(5, 100, 9);
+}
+.seleccionado{
+    color: rgb(5, 100, 9);
+}
+.portada{
+    width: 100%;
+    background-image: linear-gradient( rgb(0,0,0,.6), rgb(0,0,0,.6)),
+     url("/imagenes/fondo1.jpg");
+     background-size: cover;
+     background-position: center center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+}
+.portada h1{
+    font-size: 68px;
+    color: rgb(252, 252, 252);
+}
+.portada h1 .Verde{
+    color: rgb(15, 119, 15);
+}
+.portada p{
+    font-size: 32px;
+    color: white;
+}
+.portada .ps{
+    font-size: 20px;
+
+}
+.portada p .verde{
+    color: rgb(15, 119, 15);
+}
+.boton{
+display: block;
+width: 180px;
+margin: 0 auto;
+background-color: transparent;
+border: 4px solid rgb(5, 70, 5);
+margin-top: 30px;
+padding: 10px 0;
+border-radius: 50px;
+color: white;
+font-size: 20px;
+}
+.boton:hover{
+    background-color: rgb(4, 95, 12);
+}
+div.contenedor{
+    position: relative;
+    margin: auto;
+    width: 25%;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px,1fr));
+    gap: 2em;
+    margin:0 90px 0 90px;
+   
+    
+  }
+  .grid > div{
+    background: transparent;
+    padding: 2em;
+    border-radius: 30px;
+    box-shadow: 1px 1px 7px 7px #1b721f;
+    
+    grid-auto-flow: dense;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  
+  }
+  
+  .img2{
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px 7px #0f8f2bd0;
+    height: 230px;
+    
+  }
+  
+  .img .estudy{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    
+  }
+  .img .estudy2{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+
+  @media(max-width:991px){
+    .container{
+        height: 100vh;
+        display: flex;
+    }
+    .info{
+        width: 235px;
+        background-color:black ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .info-personal{
+        margin-bottom: 30px;
+    
+    }
+    .info-personal .foto{
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        border: 35px solid #484848;
+    }
+    .info-personal span{
+        font-size: 20px;
+        color: rgb(15, 119, 15);
+    }
+    .info-personal p{
+        font-size: 16px;
+        color: rgb(5, 70, 5);
+    }
+    nav ul{
+        list-style: none;
+    }
+    nav ul li{
+        margin: 15px 0;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    nav ul li a:hover{
+        color: rgb(5, 100, 9);
+    }
+    .seleccionado{
+        color: rgb(5, 100, 9);
+    }
+    .portada{
+        width: 100%;
+        background-image: linear-gradient( rgb(0,0,0,.6), rgb(0,0,0,.6)),
+         url("/imagenes/fondo1.jpg");
+         background-size: cover;
+         background-position: center center;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         text-align: center;
+    }
+    .portada h1{
+        font-size: 68px;
+        color: rgb(252, 252, 252);
+    }
+    .portada h1 .Verde{
+        color: rgb(15, 119, 15);
+    }
+    .portada p{
+        font-size: 32px;
+        color: white;
+    }
+    .portada .ps{
+        font-size: 20px;
+    
+    }
+    .portada p .verde{
+        color: rgb(15, 119, 15);
+    }
+    .boton{
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 4px solid rgb(5, 70, 5);
+    margin-top: 30px;
+    padding: 10px 0;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    }
+    .boton:hover{
+        background-color: rgb(4, 95, 12);
+    }
+    div.contenedor{
+        position: relative;
+        margin: auto;
+        width: 25%;
+    
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(430px,1fr));
+        gap: 2em;
+        margin:0 90px 0 90px;
+       
+        
+      }
+      .grid > div{
+        background: transparent;
+        padding: 2em;
+        border-radius: 30px;
+        box-shadow: 1px 1px 7px 7px #1b721f;
+        
+        grid-auto-flow: dense;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+      
+      }
+      
+      .img2{
+        border-radius: 15px;
+        box-shadow: 1px 1px 7px 7px #0f8f2bd0;
+        height: 230px;
+        
+      }
+      
+      .img .estudy{
+        text-align: center;
+        font-size: 30px;
+        color: #ffffff;
+        font-family:'Times New Roman', Times, serif;
+        
+      }
+      .img .estudy2{
+        text-align: center;
+        font-size: 15px;
+        color: white;
+      }
+
+
+  }
